@@ -1,3 +1,4 @@
+mod a;
 pub mod stock;
 
 pub mod foo {
