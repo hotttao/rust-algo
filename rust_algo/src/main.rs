@@ -1,5 +1,13 @@
+
+
+mod a;
+mod stock;
+
+
 fn main() {
     println!("Hello, world!");
-    let x: f64 = 0.35;
-    println!("{}", x.round());
+    a::greet();
+    stock::d::goodbye();
+    stock::d::c::hello();
+    stock::b::b_goodbye();
 }
